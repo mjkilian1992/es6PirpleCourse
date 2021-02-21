@@ -1,0 +1,6 @@
+Booleans
+ - Can create a boolean from another value manually using Boolean(val)
+    - Same for most types. It's rare to do this though
+ - Truth vs. falsy values
+   - Note: empty array is truthy in JS!
+   

@@ -1,0 +1,9 @@
+Useful Tech
+- CanIUse: website to check compatibilty of features/libraries across browsers. Also good for CSS
+- Compatibility table: https://kangax.github.io/compat-table/es6/
+- Babel.com: provides a REPL as well as docs on Babel (transpiler)
+- JS Bin
+  - Scratchpad for testing out JS
+  - Set to Babel/ES6
+  - Can configure linting settings
+  - Set 'esnext: true' in account preferences to avoid linting errors for ES6 feaures

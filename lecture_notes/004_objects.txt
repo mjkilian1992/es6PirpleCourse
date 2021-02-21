@@ -1,0 +1,24 @@
+Objects
+ - Create via 'new Object()' or object literal syntax '{}'. The latter is preferrable
+ - Access attributes using either '.attributeName' or '["attributeName"]'
+  - Former is preferrable, with latter used when you have a string to look up or when the attribute name is not a valid JS identifier e.g. 'my attribute'
+ - Can set functions as the value of attributes to give objects functionality
+   - Use this keyword to refer to the object
+- How to create objects with the same attributes from a template, so as to avoid defining them fully each time?
+ - Constructor pattern
+   - Create the object via a function
+   - Take arguments for the required setup
+   - Return an object
+   - Note: classes are a better solution here, but you will see this pattern a lot in code predating JS classes or for simple cases
+   - Convention is to use an uppercase for the function name, like a class name
+     - E.g.
+       function Donut(type){
+         this.type = type;
+       }
+     - Notice the use of 'this' - more reading on 'this' here: https://www.w3schools.com/js/js_this.asp
+       - If called as a normal function e.g. 'Donut('glazed')' this will refer to the calling scope and doesn't return anything
+       - Use the 'new' keyword
+         - Creates a new blank object and binds it to the 'this' inside the function
+         - Returns the bound object
+         - Full explanation here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new
+         

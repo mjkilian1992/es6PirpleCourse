@@ -1,0 +1,8 @@
+Introduction - Notes
+- ES6 = ECMAScript 2015
+  - Previous verion ES5 
+  - There are versions beyond ES6, but the ES5 -> ES6 jump contains the bigger change in syntax so far and add most of the features of 'modern' Javascript
+- Transpilers
+  - Used to translate from newer version of JS back to older ones seamlessly for compatibility
+- Use Babel.com transpiler to see a live translation of ES6 -> E5
+

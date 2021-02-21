@@ -1,0 +1,9 @@
+typeof keyword: gives type of expression
+Math: builtin object containing mathematical functions
+parseInt: builtin func to convert string to number. Optional argument for base i.e. base 10, base 2 for binary, etc.
+  - Can also use unary + operator e.g. +"10"
+isNaN: function to check that value is not a number
+Strings
+ - .length for length, same as arrays
+ - .charAt() for character at position
+
